@@ -130,7 +130,7 @@
 			{
                 "name": "Bio-Research",
 				"requires": ["Carbo-Extractor"],
-                "uniques": ["[+1 Food] from all [Science] buildings","[+2 Food] from [Laboratory] tiles [in all cities]","[+2 Food] from [Command Center] tiles [in all cities]"]
+                "uniques": ["[+1 Food] from all [Science] buildings","[+2 Food] from [Laboratory] tiles [in all cities]","[+2 Food] from [Command Center] tiles [in all cities]"],
                 "row": 2,
                 "column": 2
             },
@@ -157,7 +157,7 @@
 	{
         "name": "Adepts",
         "era": "Level 1",
-        "uniques": ["Free [Worker] appears","Provides a [Free Nova] in your first [1] cities for free"]
+        "uniques": ["Free [Worker] appears","Provides a [Free Nova] in your first [1] cities for free"],
 		"priorities": {
             "Neutral": 30,
             "Cultural": 70,
@@ -182,7 +182,7 @@
 			{
                 "name": "Senses Meditation",
 				"requires": ["Wonder Find"],
-                "uniques": ["Free [Expansion Builder] appears","[+1 Food, +3 Faith] from [Outpost] tiles [in all cities]"]
+                "uniques": ["Free [Expansion Builder] appears","[+1 Food, +3 Faith] from [Outpost] tiles [in all cities]"],
                 "row": 2,
                 "column": 2
             },
@@ -203,7 +203,7 @@
             {
                 "name": "Adepts Complete",
                 "uniques": [
-                    "[+1 Faith] from every [Great Improvement]",
+                    "[+1 Faith] from every [Great Improvement]"
                 ]
             }
         ]
@@ -235,7 +235,7 @@
 			{
                 "name": "Terrain Assault",
 				"requires": ["Battle Reserves"],
-                "uniques": ["[+20]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"]
+                "uniques": ["[+20]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"],
                 "row": 2,
                 "column": 2
             },
@@ -256,7 +256,7 @@
             {
                 "name": "Conquerors Complete",
                 "uniques": [
-                    "Earn [35]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [35]% of killed [Military] unit's [Cost] as [Gold]"
                 ]
             }
         ]
@@ -288,7 +288,7 @@
 			{
                 "name": "Terrain Tactics",
 				"requires": ["Uncharted Territories"],
-                "uniques": ["[+30]% Strength <for [Military] units> <when defending> <when fighting in [Foreign Land] tiles>","[+20]% Strength <for [Armor] units> <when defending> <when fighting in [Foreign Land] tiles>"]
+                "uniques": ["[+30]% Strength <for [Military] units> <when defending> <when fighting in [Foreign Land] tiles>","[+20]% Strength <for [Armor] units> <when defending> <when fighting in [Foreign Land] tiles>"],
                 "row": 2,
                 "column": 2
             },
@@ -309,7 +309,7 @@
             {
                 "name": "Explorers Complete",
                 "uniques": [
-                    "[+1 Culture] from [Strategic resource] tiles [in all cities]",
+                    "[+1 Culture] from [Strategic resource] tiles [in all cities]"
                 ]
             }
         ]
@@ -341,7 +341,7 @@
 			{
                 "name": "Veteran Survivors",
 				"requires": ["Animal Cloning"],
-                "uniques": ["Free [Military Builder] appears","[+30]% Strength <for [All] units> <when defending> <when fighting in [Friendly Land] tiles>"]
+                "uniques": ["Free [Military Builder] appears","[+30]% Strength <for [All] units> <when defending> <when fighting in [Friendly Land] tiles>"],
                 "row": 2,
                 "column": 2
             },
@@ -362,7 +362,7 @@
             {
                 "name": "Adaptionists Complete",
                 "uniques": [
-                    "[+3 Culture, +2 Food, +1 Happiness] [in all cities]",
+                    "[+3 Culture, +2 Food, +1 Happiness] [in all cities]"
                 ]
             }
         ]
@@ -394,7 +394,7 @@
 			{
                 "name": "Trade Communications",
 				"requires": ["Endorsement"],
-                "uniques": ["[+50]% [Gold] from every [Intergalactic Route]","[+50]% [Gold] from every [Intergalactic Trade]"]
+                "uniques": ["[+50]% [Gold] from every [Intergalactic Route]","[+50]% [Gold] from every [Intergalactic Trade]"],
                 "row": 2,
                 "column": 2
             },
@@ -415,7 +415,7 @@
             {
                 "name": "Commercialists Complete",
                 "uniques": [
-                     "[+6 Gold, +2 Science, +1 Happiness] [in all cities]",
+                     "[+6 Gold, +2 Science, +1 Happiness] [in all cities]"
                 ]
             }
         ]
@@ -469,7 +469,7 @@
             {
                 "name": "Inventors Complete",
                 "uniques": [
-                    "[+25]% [Science]","[+1 Happiness] [in all cities]",
+                    "[+25]% [Science]","[+1 Happiness] [in all cities]"
                 ]
             }
         ]
@@ -522,7 +522,7 @@
             {
                 "name": "Sages Complete",
                 "uniques": [
-                    "[+3 Culture, +2 Faith, +1 Happiness] [in all cities]",
+                    "[+3 Culture, +2 Faith, +1 Happiness] [in all cities]"
                 ]
             }
         ]
