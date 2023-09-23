@@ -37,7 +37,7 @@
 	{
         "name": "Tactician",
         "movementType": "Land",
-		"Uniques": ["Infantry",]
+		"Uniques": ["Infantry"]
     },
     {
         "name": "Mech",
@@ -68,5 +68,5 @@
         "name": "Orbital Strike",
         "movementType": "Air",
         "uniques": ["Special","Self-destructs when attacking","Cannot be intercepted"]
-    },
+    }
 ]

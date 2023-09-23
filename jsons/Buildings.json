@@ -3,11 +3,11 @@
 	{
 		"name": "AI Mechanics",
 		"isNationalWonder": true,
-		"cost": -1
+		"cost": 1,
 		"uniques": [
-		"[+30]% Production when constructing [Infantry] units [in all cities] <starting from the [Level 3]>"
-		"[+40]% Production when constructing [Armor] units [in all cities] <starting from the [Level 4]>"
-		"[+40]% Production when constructing [Air] units [in all cities] <starting from the [Level 5]>"
+		"[+30]% Production when constructing [Infantry] units [in all cities] <starting from the [Level 3]>",
+		"[+40]% Production when constructing [Armor] units [in all cities] <starting from the [Level 4]>",
+		"[+40]% Production when constructing [Air] units [in all cities] <starting from the [Level 5]>",
 		"Provides [1] [Nova] <after discovering [Outposts]>",
 		"Provides [4] [Nova] <after discovering [Temples]>",
 		"Provides [9] [Nova] <after discovering [The Force]>",
@@ -16,29 +16,29 @@
 		"Provides [4] [Battery] <after discovering [Mechs]>",
 		"Provides [4] [Engine] <after discovering [Spaceports]>",
         "[+1 Culture] [in all cities] <starting from the [Level 2]>",
-		"[+2 Food] [in all cities] <starting from the [Level 2]>"
+		"[+2 Food] [in all cities] <starting from the [Level 2]>",
 		"[+1 Production] [in all cities] <starting from the [Level 2]>",
-		"Receive free [Expansion Builder] when you discover [Expansion]",
-		"Receive free [Settler] when you discover [Power Cores]",
-		"Receive free [Settler] when you discover [Advanced Energy]",
-		"Receive free [Settler] when you discover [Fortress]",
-		"Receive free [Military Builder] when you discover [Advanced Military]",
-		"Receive free [Research Builder] when you discover [Processing]",
-		"Receive free [Worker] when you discover [Supplies]",
-		"Receive free [Military Builder] when you discover [Mechs]",
-		"Receive free [Expansion Builder] when you discover [Spaceports]",
-		"Receive free [Expansion Builder] when you discover [Scanning]",
+		"Free [Expansion Builder] appears <upon discovering [Expansion]>",
+		"Free [Settler] appears <upon discovering [Power Cores]>",
+		"Free [Settler] appears <upon discovering [Advanced Energy]>",
+		"Free [Settler] appears <upon discovering [Fortress]>",
+		"Free [Military Builder] appears <upon discovering [Advanced Military]>",
+		"Free [Research Builder] appears <upon discovering [Processing]>",
+		"Free [Worker] appears <upon discovering [Supplies]>",
+		"Free [Military Builder] appears <upon discovering [Mechs]>",
+		"Free [Expansion Builder] appears <upon discovering [Spaceports]>",
+		"Free [Expansion Builder] appears <upon discovering [Scanning]>",
 		"Provides [20] [Energy] <starting from the [Level 2]>",
-		"Provides [30] [Energy] <starting from the [Level 3]>"
-		"Provides [40] [Energy] <starting from the [Level 4]>"
-		"Provides [50] [Energy] <starting from the [Level 2]>"
-		"Provides [23] [Carbon] <starting from the [Level 2]>"
+		"Provides [30] [Energy] <starting from the [Level 3]>",
+		"Provides [40] [Energy] <starting from the [Level 4]>",
+		"Provides [50] [Energy] <starting from the [Level 2]>",
+		"Provides [23] [Carbon] <starting from the [Level 2]>",
 		"Provides [22] [Battery] <starting from the [Level 3]>",
 		"Provides [22] [Battery] <starting from the [Level 4]>",
 		"Provides [23] [Engine] <starting from the [Level 4]>",
 		"Provides [22] [Reactor] <starting from the [Level 5]>",
-		"Provides [26] [Carbon] <starting from the [Level 3]>"
-		"Provides [42] [Carbon] <starting from the [Level 4]>"
+		"Provides [26] [Carbon] <starting from the [Level 3]>",
+		"Provides [42] [Carbon] <starting from the [Level 4]>",
 		"Provides [30] [Battery] <starting from the [Level 4]>",
 		"Provides [30] [Battery] <starting from the [Level 5]>",
 		"Provides [16] [Engine] <starting from the [Level 4]>",
@@ -47,7 +47,7 @@
 		"Provides [12] [Reactor] <starting from the [Level 5]>",
 		"Free [Strategic Worker] appears <after discovering [Processing]>",
 		"Provides [2] [Ore] <after discovering [Power Cores]>",
-		"[+1] Unit Supply per [3] population [in all cities]"
+		"[+1] Unit Supply per [3] population [in all cities]",
 		"[-50]% Unhappiness from [Population] [in all cities]",
 		"[-40]% Unhappiness from [Population] [in all cities] <starting from the [Level 3]>",
 		"[+1 Production] [in all cities] <starting from the [Level 1]>",
@@ -58,13 +58,13 @@
 		"[+2 Culture] [in all cities] <starting from the [Level 3]>",
 		"[+2 Science] [in all cities] <starting from the [Level 3]>",
 		"[+4 Food] [in all cities] <starting from the [Level 4]>",
-		"[+4 Production] [in all cities] <starting from the [Level 4]>"
-		"[+4 Culture] [in all cities] <starting from the [Level 4]>"
+		"[+4 Production] [in all cities] <starting from the [Level 4]>",
+		"[+4 Culture] [in all cities] <starting from the [Level 4]>",
 		"[+4 Science] [in all cities] <starting from the [Level 4]>",
 		"[+5 Food] [in all cities] <starting from the [Level 5]>",
-		"[+2 Production] [in all cities] <starting from the [Level 5]>"
-		"[+2 Culture] [in all cities] <starting from the [Level 5]>"
-		"[+2 Science] [in all cities] <starting from the [Level 5]>"
+		"[+2 Production] [in all cities] <starting from the [Level 5]>",
+		"[+2 Culture] [in all cities] <starting from the [Level 5]>",
+		"[+2 Science] [in all cities] <starting from the [Level 5]>",
 		"Destroyed when the city is captured",
 		"Will not be displayed in Civilopedia",
 		"Only available <after discovering [AI Mechanics]>"]
@@ -109,7 +109,7 @@
 		"name": "Official Anexation",
 	    "cost": 20,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built [in annexed cities]"]
 	},
 	{
 		"name": "Hunt Food",
@@ -455,7 +455,7 @@
 	{
 		"name": "Parts Factory",
 		"production": 1,
-		"requiredTech": "Factories"
+		"requiredTech": "Factories",
 		"requiredResource": "Energy",
 		"uniques": ["[+1 Production] from [Factory] tiles [in this city]",
         "[+15]% Production when constructing [All] buildings [in this city]",
@@ -507,11 +507,11 @@
 		"requiredResource": "Ore",
 		"cityStrength": 12,
 		"uniques": ["Destroyed when the city is captured",
-		"Only available <in cities without a [Advanced Wall]>"]
+		"Only available <in cities without a [Advanced Walls]>"]
 	},
 	{
 		"name": "Advanced Walls",
-		"requiredTech": "Advanced Energy"
+		"requiredTech": "Advanced Energy",
 		"requiredResource": "Ore",
 		"cityHealth": 25,
 		"uniques": ["Destroyed when the city is captured",
@@ -743,7 +743,7 @@
 		"requiredTech": "Scanning",
 		"requiredResource": "Energy",
 		"uniques": ["[+2 Culture] from [Radar Dish] tiles [in this city]",
-		"[-50]% Unhappiness from [Specialists] [in this city]"
+		"[-50]% Unhappiness from [Specialists] [in this city]",
 		"Must have an owned [Radar Dish] within [3] tiles",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [Operative Scanner]>",
@@ -766,11 +766,11 @@
 		"name": "Satellite Reveal",
 		"cost": 160,
 		"isNationalWonder": true,
-		"requiredTech": "Scanning"
+		"requiredTech": "Scanning",
 		"uniques": ["Reveals the entire map",
 		"Must have an owned [Radar Dish] within [3] tiles",
 		"Only available <in cities without a [Operative Scanner]>",
-		"Only available <in cities without a [Frequency Scanner]>"],
+		"Only available <in cities without a [Frequency Scanner]>"]
 	},
 	{
 		"name": "Optimized Outpost",
@@ -801,7 +801,7 @@
 	{
 		"name": "Force Institution",
 		"faith": 1,
-		"requiredTech": "The Force"
+		"requiredTech": "The Force",
 		"requiredResource": "Energy",
 		"uniques": ["[+5 Faith] from [Force Temple] tiles [in this city]",
 		"Must have an owned [Force Temple] within [3] tiles",
@@ -1072,7 +1072,7 @@
 		"name": "Supercollider Blueprints",
 		"isNationalWonder": true,
 		"cost": 1200,
-		"requiredTech": "Heroes"
+		"requiredTech": "Heroes",
 		"uniques": ["Enables Construction of Supercollider","Triggers a global alert upon completion","Hidden when [Scientific] Victory is disabled"]
 	},
 	{
@@ -1107,5 +1107,5 @@
 		"Only available <if [Supercollider Structure] is constructed>",
 		"Only available <if [Supercollider Core] is constructed>",
 		"Hidden when [Scientific] Victory is disabled"]
-    },
+    }
 ]

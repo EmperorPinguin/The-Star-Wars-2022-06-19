@@ -164,31 +164,31 @@
 	},
 	{
 		"name": "Terrain Adapt",
-		"prerequisites": ["Macrobinoculars"]
+		"prerequisites": ["Macrobinoculars"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Setting Camp",
-		"prerequisites": ["Scramble"]
+		"prerequisites": ["Scramble"],
 		"uniques": ["[+15] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Undercover",
-		"prerequisites": ["Terrain Adapt"]
+		"prerequisites": ["Terrain Adapt"],
 		"uniques": ["May enter foreign tiles without open borders"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Ambush Squad",
-		"prerequisites": ["Setting Camp"]
+		"prerequisites": ["Setting Camp"],
 		"uniques": ["[+50]% Strength <when attacking>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Elite Recon",
-		"prerequisites": ["Undercover","Ambush Squad"]
+		"prerequisites": ["Undercover","Ambush Squad"],
 		"uniques": ["May withdraw before melee ([50]%)"],
 		"unitTypes": ["Recon"]
 	},
@@ -205,26 +205,26 @@
 	},
 	{
 		"name": "Thermal Detonator",
-		"prerequisites": ["Frontlines"]
+		"prerequisites": ["Frontlines"],
 		"uniques": ["[+30]% Strength <vs [Armor] units> <when defending>"],
 		"unitTypes": ["Battler"]
 	},
 	{
 		"name": "Chokepoint",
-		"prerequisites": ["Disruption"]
+		"prerequisites": ["Disruption"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Battler"]
 	},
 	{
 		"name": "Field Supplies",
-		"prerequisites": ["Thermal Detonator"]
-		"uniques": ["[+10] HP when healing"]
+		"prerequisites": ["Thermal Detonator"],
+		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Battler"]
 	},
 	{
 		"name": "Urban Specialist",
-		"prerequisites": ["Chokepoint"]
-		"uniques": ["[+50]% Strength <vs cities>"]
+		"prerequisites": ["Chokepoint"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Battler"]
 	},
 	{
@@ -263,7 +263,7 @@
 	},
 	{
 		"name": "Reinforced Blasters",
-		"prerequisites": ["Retaliation"]
+		"prerequisites": ["Retaliation"],
 		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>"],
 		"unitTypes": ["Ranged Battler","Siege"]
 	},
@@ -275,19 +275,19 @@
 	},
 	{
 		"name": "Seeker Missiles",
-		"prerequisites": ["Reinforced Blasters"]
+		"prerequisites": ["Reinforced Blasters"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Ranged Battler","Siege"]
 	},
 	{
 		"name": "Portable Scanners",
-		"prerequisites": ["Strike III","Reinforced Blasters"]
+		"prerequisites": ["Strike III","Reinforced Blasters"],
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Ranged Battler","Siege"]
 	},
 	{
 		"name": "Cleanup Crew",
-		"uniques": ["[+15]% Strength <vs [Wounded] units>"]
+		"uniques": ["[+15]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Recon","Battler","Ranged Battler","Mounted","Mech","Siege","Fighter","Bomber","Interceptor"]
 	},
 	//Mounted
@@ -303,25 +303,25 @@
 	},
 	{
 		"name": "Fusion Cutter II",
-		"prerequisites": ["Fusion Cutter I"]
+		"prerequisites": ["Fusion Cutter I"],
 		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>","[+50]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
 		"name": "Turbo Engine",
-		"prerequisites": ["Open Combat"]
+		"prerequisites": ["Open Combat"],
 		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Mounted"]
 	},
 	{
 		"name": "Fusion Cutter III",
-		"prerequisites": ["Fusion Cutter II"]
+		"prerequisites": ["Fusion Cutter II"],
 		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>","[+50]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
 		"name": "Rush Repairs",
-		"prerequisites": ["Turbo Engine"]
+		"prerequisites": ["Turbo Engine"],
 		"uniques": ["[+10] HP when healing <in [Friendly Land] tiles>"],
 		"unitTypes": ["Mounted"]
 	},
@@ -360,7 +360,7 @@
 	},
 	{
 		"name": "Hostile Takeover",
-		"prerequisites": ["Light Armor"]
+		"prerequisites": ["Light Armor"],
 		"uniques": ["[+10]% Strength <when attacking>","[+25]% Strength <vs cities>"],
 		"unitTypes": ["Mech"]
 	},
@@ -406,37 +406,37 @@
 	},
 	{
 		"name": "Dispersion Strike",
-		"prerequisites": ["Targeted Strikes"]
+		"prerequisites": ["Targeted Strikes"],
 		"uniques": ["[+20]% Strength <vs [Infantry] units>"],
 		"unitTypes": ["Siege"]
 	},
 	{
 		"name": "Armor Shells",
-		"prerequisites": ["Targeted Strikes"]
+		"prerequisites": ["Targeted Strikes"],
 		"uniques": ["[+20]% Strength <vs [Armor] units>","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Siege"]
 	},
 	{
 		"name": "Supply Guard",
-		"prerequisites": ["Dispersion Strike"]
+		"prerequisites": ["Dispersion Strike"],
 		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Siege"]
 	},
 	{
 		"name": "Deploy Flares",
-		"prerequisites": ["Dispersion Strike"]
+		"prerequisites": ["Dispersion Strike"],
 		"uniques": ["[+50]% Strength <vs [Air] units> <when defending>"],
 		"unitTypes": ["Siege"]
 	},
 	{
 		"name": "Expertise",
-		"prerequisites": ["Supply Guard","Deploy Flares"]
+		"prerequisites": ["Supply Guard","Deploy Flares"],
 		"uniques": ["Can move after attacking"],
 		"unitTypes": ["Siege"]
 	},
 	{
 		"name": "Supply Refill",
-		"prerequisites": ["Dispersion Strike"]
+		"prerequisites": ["Dispersion Strike"],
 		"uniques": ["[+10] HP when healing <in [Friendly Land] tiles>"],
 		"unitTypes": ["Ranged Battler","Mech","Siege"]
 	},
@@ -453,31 +453,31 @@
 	},
 	{
 		"name": "Air Combat II",
-		"prerequisites": ["Air Combat I"]
+		"prerequisites": ["Air Combat I"],
 		"uniques": ["[+40]% Damage when intercepting"],
 		"unitTypes": ["Fighter","Interceptor"]
 	},
 	{
 		"name": "Air Raids",
-		"prerequisites": ["Air Perimeter"]
+		"prerequisites": ["Air Perimeter"],
 		"uniques": ["[+50]% Strength <vs [Infantry] units>"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Air Combat III",
-		"prerequisites": ["Air Combat II"]
+		"prerequisites": ["Air Combat II"],
 		"uniques": ["[+40]% Damage when intercepting"],
 		"unitTypes": ["Fighter","Interceptor"]
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Air Raids"]
+		"prerequisites": ["Air Raids"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Sortie",
-		"prerequisites": ["Air Combat III"]
+		"prerequisites": ["Air Combat III"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter","Interceptor"]
 	},
@@ -494,7 +494,7 @@
 	},
 	{
 		"name": "Heavy Bombs",
-		"prerequisites": ["Air Perimeter"]
+		"prerequisites": ["Air Perimeter"],
 		"uniques": ["[+50]% Strength <vs [Armor] units>"],
 		"unitTypes": ["Bomber","Interceptor"]
 	},
@@ -506,7 +506,7 @@
 	},
 	{
 		"name": "Supply Drop",
-		"prerequisites": ["Heavy Bombs"]
+		"prerequisites": ["Heavy Bombs"],
 		"uniques": ["Heals [20] damage if it kills a unit"],
 		"unitTypes": ["Bomber","Interceptor"]
 	},
@@ -568,7 +568,7 @@
 		"prerequisites": ["Hyperdrive II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Starship"]
-	}
+	},
 	//Jedi
 	{
 		"name": "Force Stamina",

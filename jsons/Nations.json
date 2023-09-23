@@ -2,7 +2,7 @@
     //The Spectator
  	{
 		"name": "Spectator",
-		"outerColor": [0,0,0]
+		"outerColor": [0,0,0],
 		"innerColor": [250,250,250]
 	},
 	//
@@ -144,7 +144,7 @@
 
 		"tradeRequest": "This will be most helpful.",
 
-		"outerColor": [48,20,00],
+		"outerColor": [48,20,0],
 		"innerColor": [225,155,0],
 		"favoredReligion": "The Tide",
 		"uniqueName": "Liberation Agenda",
@@ -270,7 +270,7 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
+		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]
 	}
 ]
