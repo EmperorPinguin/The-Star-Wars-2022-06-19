@@ -19,8 +19,8 @@
 		"improvement": "Shelter",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [14] tiles <in [Featureless] [Desert] tiles>",
-		            "Generated on every [19] tiles <in [Featureless] [Tundra] tiles>"
-		            "Generated on every [20] tiles <in [Featureless] [Desert] tiles> <in [Hill] Regions>"
+		            "Generated on every [19] tiles <in [Featureless] [Tundra] tiles>",
+		            "Generated on every [20] tiles <in [Featureless] [Desert] tiles> <in [Hill] Regions>",
 					"Generated on every [25] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"]
 	},
 	{
@@ -79,8 +79,8 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"improvement": "Shelter",
-		"uniques": ["Generated on every [15] tiles <in [Featureless] [Plains] tiles>"]
-		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [15] tiles <in [Featureless] [Plains] tiles>"],
+		"improvementStats": {"gold": 1}
 	},
 	{
 		"name": "Graphite",
@@ -101,7 +101,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Research",
 		"improvement": "Extractor",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Desert","Hill","Forest","Jungle"]
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Desert","Hill","Forest","Jungle"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [95] <in [Featureless] [Grassland] tiles>",
@@ -122,7 +122,7 @@
 		"culture": 1,
 		"revealedBy": "Ore",
 		"improvement": "Extractor",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"]
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [35] <in [Featureless] [Tundra] tiles>",
@@ -148,7 +148,7 @@
 		"revealedBy": "Nova",
 		"improvement": "Extractor",
 		"improvementStats": {"production": 1},
-		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"]
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"uniques": ["Generated with weight [40] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [75] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [75] <in [Forest] tiles> <in tiles without [Hill]>",
@@ -160,7 +160,7 @@
 	},
 	{
 		"name": "Battery",
-		"production": 1
+		"production": 1,
 		"resourceType": "Strategic",
 		"revealedBy": "Processing",
 		"improvement": "Extractor",
@@ -245,7 +245,7 @@
 	},
 	{
 		"name": "Guilea",
-		"gold": 2
+		"gold": 2,
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"improvement": "Trade Point",
@@ -486,13 +486,13 @@
 		"faith": 1,
 		"improvement": "Force Temple",
 		"improvementStats": {"faith": 1},
-		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"]
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"uniques": ["Force Ore",
 		"Guaranteed with Strategic Balance resource option",
 		            "Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [60] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [60] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Generated near City States with weight [10]"],
+					"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "Crystals",
@@ -506,12 +506,12 @@
 		"Generated with weight [17] <in [Tundra] Regions>",
 					"Generated with weight [25] <in [Desert] Regions>",
 					"Generated with weight [25] <in [Hill] Regions>",
-					"Generated near City States with weight [10]"],
+					"Generated near City States with weight [10]"]
 	},
 	//Building Related
 	{
 		"name": "Databanks",
 		"resourceType": "Luxury",
-		"culture": 3,
+		"culture": 3
 	}
 ]
