@@ -171,30 +171,30 @@
         "type": "Enhancer",
         "uniques": ["May buy [Force Ghost] units for [400] [Faith] [in all cities in which the majority religion is a enhanced religion] at an increasing price ([150])"]
     },
-	{
+    {
         "name": "Freedom through Victory",
         "type": "Enhancer",
-        "uniques": ["All [Jedi] units receive the [Force Drain] promotion"]
+        "uniques": ["[Jedi] units gain the [Force Drain] promotion"]
     },
 	{
         "name": "Force Jump",
         "type": "Enhancer",
-        "uniques": ["All [Jedi] units receive the [Force Jump] promotion"]
+        "uniques": ["[Jedi] units gain the [Force Jump] promotion"]
     },
 	{
         "name": "First Strikes",
         "type": "Enhancer",
-        "uniques": ["All [Jedi] units receive the [First Strike] promotion"]
+        "uniques": ["[Jedi] units gain the [First Strike] promotion"]
     },
 	{
         "name": "Force Rage",
         "type": "Enhancer",
-        "uniques": ["All [Jedi] units receive the [Force Rage] promotion"]
+        "uniques": ["[Jedi] units gain the [Force Rage] promotion"]
     },
 	{
         "name": "Force Barrier",
         "type": "Enhancer",
-        "uniques": ["All [Jedi] units receive the [Force Barrier] promotion"]
+        "uniques": ["[Jedi] units gain the [Force Barrier] promotion"]
     }
 	
 ]
