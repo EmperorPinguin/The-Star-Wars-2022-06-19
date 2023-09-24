@@ -4,16 +4,17 @@
 		"era": "Level 1",
 		"techCost": 10,
 		"buildingCost": 10,
+		"wonderCost": 10,
 		"techs": [
 		    {
 				"name": "AI Mechanics",
 				"row": 1,
 				"uniques": ["Only available <after discovering [AI Mechanics]>","AI Exclusive"]
-			}
+			},
 			{
 				"name": "Center Base",
 				"row": 5,
-				"uniques": ["Starting tech","Enables conversion of city production to gold","Enables Open Borders agreements","Enables embarkation for land units"]
+				"uniques": ["Starting tech","Enables conversion of city production to [Gold]","Enables Open Borders agreements","Enables embarkation for land units"]
 			}
 		]
 	},
@@ -22,6 +23,7 @@
 		"era": "Level 1",
 		"techCost": 18,
 		"buildingCost": 18,
+		"wonderCost": 18,
 		"techs": [
 			{
 				"name": "Research",
@@ -45,11 +47,12 @@
 		"era": "Level 1",
 		"techCost": 30,
 		"buildingCost": 24,
+		"wonderCost": 24,
 		"techs": [
 			{
 				"name": "Organization",
 				"row": 1,
-				"prerequisites": ["Research"],
+				"prerequisites": ["Research"]
 			},
 			{
 				"name": "Studies",
@@ -83,6 +86,7 @@
 		"era": "Level 2",
 		"techCost": 64,
 		"buildingCost": 36,
+		"wonderCost": 36,
 		"techs": [
 			{
 				"name": "Processing",
@@ -92,13 +96,13 @@
 			{
 				"name": "Power Cores",
 				"row": 5,
-				"uniques": ["Enables [Embarked] units to enter ocean tiles"]
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Supplies","Trade"]
 			},
 			{
 				"name": "Battle Training",
 				"row": 8,
-				"prerequisites": ["Ranged Trooper","Mounted Trooper"],
+				"prerequisites": ["Ranged Trooper","Mounted Trooper"]
 			}
 		]
 	},
@@ -107,11 +111,12 @@
 		"era": "Level 2",
 		"techCost": 92,
 		"buildingCost": 48,
+		"wonderCost": 48,
 		"techs": [
 			{
 				"name": "Ore",
 				"row": 1,
-				"prerequisites": ["Processing"],
+				"prerequisites": ["Processing"]
 			},
 			{
 				"name": "Nova",
@@ -150,6 +155,7 @@
 		"era": "Level 3",
 		"techCost": 181,
 		"buildingCost": 96,
+		"wonderCost": 96,
 		"techs": [
 			{
 				"name": "Specialism",
@@ -164,7 +170,7 @@
 			{
 				"name": "Advanced Military",
 				"row": 8,
-				"prerequisites": ["Mechs","Tacticians"],
+				"prerequisites": ["Mechs","Tacticians"]
 			}
 		]
 	},
@@ -173,6 +179,7 @@
 		"era": "Level 3",
 		"techCost": 250,
 		"buildingCost": 128,
+		"wonderCost": 128,
 		"techs": [
 			{
 				"name": "Joint Development",
@@ -217,6 +224,7 @@
 		"era": "Level 4",
 		"techCost": 512,
 		"buildingCost": 180,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Optimization",
@@ -231,7 +239,7 @@
 			{
 				"name": "Repeaters",
 				"row": 8,
-				"prerequisites": ["Heavy Assault","Spaceports"],
+				"prerequisites": ["Heavy Assault","Spaceports"]
 			}
 		]
 	},
@@ -240,11 +248,12 @@
 		"era": "Level 4",
 		"techCost": 700,
 		"buildingCost": 240,
+		"wonderCost": 240,
 		"techs": [
 			{
 				"name": "Scanning",
 				"row": 1,
-				"prerequisites": ["Optimization"],
+				"prerequisites": ["Optimization"]
 			},
 			{
 				"name": "Galactic Trade",
@@ -283,6 +292,7 @@
 		"era": "Level 5",
 		"techCost": 2440,
 		"buildingCost": 480,
+		"wonderCost": 480,
 		"techs": [
 			{
 				"name": "Heroes",
@@ -296,13 +306,14 @@
 		"era": "Level 5",
 		"techCost": 2500,
 		"buildingCost": 480,
+		"wonderCost": 480,
 		"techs": [
 			{
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Heroes"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["Can be continually researched"]
 			}
 		]
-	},
+	}
 ]

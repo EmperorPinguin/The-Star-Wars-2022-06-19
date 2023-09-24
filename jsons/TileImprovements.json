@@ -55,7 +55,7 @@
 		"culture": -1,
 		"production": -1,
 		"faith": -1,
-		"science": -1
+		"science": -1,
 		"uniques": ["Great Improvement", "Provides [3] [Energy]"]
 	},
 	{
@@ -107,14 +107,14 @@
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
 		"turnsToBuild": 4,
 		"techRequired": "Roads",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
 		"turnsToBuild": 4,
 		"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders"]
 	},
 	//Unique
 	{
@@ -174,10 +174,10 @@
 	{ 
 		"name": "City center", 
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
-		"uniques": ["Unpillagable","Irremovable","Indestructible"],
+		"uniques": ["Unpillagable","Irremovable","[+1 Food] for each adjacent [Great Improvement]","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"}]
-		"uniques": ["[+1 Food] for each adjacent [Great Improvement]"] //Bonus only Triggers once per type of Great Improvement
+		 //Bonus only Triggers once per type of Great Improvement
 	},
 	{ 
 		"name": "Barbarian encampment", 
