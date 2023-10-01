@@ -2,47 +2,47 @@
     {
         "name": "Civilian",
         "movementType": "Land",
-		"Uniques": ["Infantry"]
+		"uniques": ["Infantry"]
     },
 	{
         "name": "Recon",
         "movementType": "Land",
-		"Uniques": ["Infantry"]
+		"uniques": ["Infantry"]
     },
 	{
         "name": "Battler",
         "movementType": "Land",
-		"Uniques": ["Infantry"]
+		"uniques": ["Infantry"]
     },
 	{
         "name": "Ranged Battler",
         "movementType": "Land",
-		"Uniques": ["Infantry"]
+		"uniques": ["Infantry"]
     },
 	{
         "name": "Mounted",
         "movementType": "Land",
-		"Uniques": ["Infantry"]
+		"uniques": ["Infantry"]
     },
 	{
         "name": "Jedi",
         "movementType": "Land",
-		"Uniques": ["Force","Unable to capture cities"]
+		"uniques": ["Force","Unable to capture cities"]
     },
 	{
         "name": "Siege",
         "movementType": "Land",
-		"Uniques": ["Armor","Ranged attacks may be performed over obstacles"]
+		"uniques": ["Armor","Ranged attacks may be performed over obstacles"]
     },
 	{
         "name": "Tactician",
         "movementType": "Land",
-		"Uniques": ["Infantry"]
+		"uniques": ["Infantry"]
     },
     {
         "name": "Mech",
         "movementType": "Land",
-		"Uniques": ["Armor"]
+		"uniques": ["Armor"]
     },
 	{
         "name": "Fighter",
